@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+
+<title>NAF.CAM_About Me</title>
+<style>
+
+
+
+    .aboutme{
+    font-size:20px;
+    color:white;
+
+    text-align:center;
+    float:left;
+    }
+    h1{
+    color:white;
+    font-size: 25px;
+    float: left
+    margin-left: 115px;
+    }
+
+</style>
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class="container"></div>
+                    <div class="aboutme">
+                        <h1>Here's a little bit about me</h1>
+                          <p class="aboutme">
+                              My name is Md. Nafis Ali,<br>
+                              and I am a 2nd year student at Concordia University.<br>
+                              I will be graduating school at the end of the year 2023.<br>
+                              I originally study in Software Enginering,
+                              but I do have a great interest in photography.<br>
+                              I do intend in working in the field I study in,
+                              but right now, I am a freelance photographer.<br>
+                              I see photography as a way to express things that are better seen than said.<br>
+                              Portraits are on of my main art because I believe that facial expressions are meant to be captured.<br>
+                              Capturing these pictures helps me connect with the artistic lifestyle, <br>
+                              Many people do see what I see,<br> and being able to see other people's photography work, <br>
+                              it helps me flow through new styles of pictures that I can take.<br> I have decided to share what I worked hard on with all of you fellows.<br>
+                              This is my art . Enjoy! <a style="color:green;" href="{{ url_for('d') }}">My Art</a> <br>
+                              I also have other skillset beside photography! <a href="{{ url_for('g') }}" style="color:green;">Click right here to find out!!</a>
+                          </p>
+                     </div>
+</div>
+
+
+
+
+            
+            
+{% endblock %}

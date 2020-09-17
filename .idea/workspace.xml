@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22d8c92c-3d0d-4d95-82dc-b65063bafc94" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aBXs1JAMVIhj0IGwkA6q3P6c41" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdnaf\Documents\flask_app\static\css" />
+      <recent name="C:\Users\mdnaf\Documents\flask_app\static\js" />
+      <recent name="C:\Users\mdnaf\Documents\flask_app\templates" />
+      <recent name="C:\Users\mdnaf\Documents\flask_app\templates\other pages" />
+      <recent name="C:\Users\mdnaf\Documents\flask_app\Other pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="flask_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22d8c92c-3d0d-4d95-82dc-b65063bafc94" name="Default Changelist" comment="" />
+      <created>1586210163443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586210163443</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="143" key="#Inspections" timestamp="1586791683062">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="143" key="#Inspections/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586791683062" />
+    <state x="483" y="405" key="DBNavigator.CreateRenameSessionDialog" timestamp="1586880361100">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="483" y="405" key="DBNavigator.CreateRenameSessionDialog/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586880361100" />
+    <state x="194" y="175" key="DBNavigator.ProjectSettingsDialog" timestamp="1586838986783">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="194" y="175" key="DBNavigator.ProjectSettingsDialog/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586838986783" />
+    <state x="533" y="224" key="FileChooserDialogImpl" timestamp="1587590221182">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="224" key="FileChooserDialogImpl/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587590221182" />
+    <state width="1483" height="208" key="GridCell.Tab.0.bottom" timestamp="1587621980486">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="208" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587621980486" />
+    <state width="1339" height="144" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1587017977455" />
+    <state width="1483" height="208" key="GridCell.Tab.0.center" timestamp="1587621980486">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="208" key="GridCell.Tab.0.center/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587621980486" />
+    <state width="1339" height="144" key="GridCell.Tab.0.center/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1587017977455" />
+    <state width="1483" height="208" key="GridCell.Tab.0.left" timestamp="1587621980486">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="208" key="GridCell.Tab.0.left/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587621980486" />
+    <state width="1339" height="144" key="GridCell.Tab.0.left/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1587017977455" />
+    <state width="1483" height="208" key="GridCell.Tab.0.right" timestamp="1587621980486">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="208" key="GridCell.Tab.0.right/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587621980486" />
+    <state width="1339" height="144" key="GridCell.Tab.0.right/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1587017977455" />
+    <state width="1483" height="317" key="GridCell.Tab.1.bottom" timestamp="1586356836501">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586356836501" />
+    <state width="1483" height="317" key="GridCell.Tab.1.center" timestamp="1586356836500">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.center/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586356836500" />
+    <state width="1483" height="317" key="GridCell.Tab.1.left" timestamp="1586356836500">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.left/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586356836500" />
+    <state width="1483" height="317" key="GridCell.Tab.1.right" timestamp="1586356836500">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1483" height="317" key="GridCell.Tab.1.right/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586356836500" />
+    <state x="256" y="127" key="SettingsEditor" timestamp="1586907295811">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="256" y="127" key="SettingsEditor/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586907295811" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586493691336">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586493691336" />
+    <state x="461" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1587649488515">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="461" y="310" key="com.intellij.ide.util.TipDialog/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1587649488515" />
+    <state x="2673" y="525" key="com.intellij.ide.util.TipDialog/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1586825162499" />
+    <state x="446" y="339" width="663" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586834340305">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="446" y="339" width="663" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586834340305" />
+    <state x="2631" y="447" width="672" height="678" key="search.everywhere.popup" timestamp="1586821725606">
+      <screen x="2256" y="291" width="1360" height="728" />
+    </state>
+    <state x="415" y="206" key="search.everywhere.popup/0.0.1504.963/2256.291.1360.728@0.0.1504.963" timestamp="1586493704406" />
+    <state x="2631" y="447" width="672" height="678" key="search.everywhere.popup/0.0.1504.963/2256.291.1360.728@2256.291.1360.728" timestamp="1586821725606" />
+  </component>
+</project>

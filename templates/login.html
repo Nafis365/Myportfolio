@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+<html>
+    <head>
+
+         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <title>Login</title>
+        <style>
+
+            body{
+              font-family: Tahoma, Geneva, sans-serif;
+              color:#fff;
+              background: url(static/images/sheldonbackbackground.jpg);
+              background-size: cover;
+            }
+            .signin{
+              background: rgba(44, 62, 80, 0.7);
+              padding: 50px;
+              width: 250px;
+              margin: auto;
+              margin-top: 160px;
+              height: 455px;
+              margin-left: 180x;
+            }
+            form{
+              width: 240px;
+              text-align: center;
+            }
+            input{
+              width: 240px;
+              text-align: center;
+              background: transparent;
+
+              border: 1px solid #fff;
+              font-family:'Play', sans-serif;
+              font-size: 16px;
+              font-weight: 200px;
+              padding: 10px 0;
+              transition: border 0.5s;
+              outline: none;
+              color: #fff;
+            }
+            input[type=submit]{
+              border: none;
+              width:190px
+              background: white;
+              color:#fff;
+              font-size: 16px;
+              line-height: 25px;
+              padding: 10px 0;
+              border-radius: 15px;
+              cursor: pointer;
+            }
+            input[type=submit]:hover{
+              color: yellow;
+              background-color: black;
+            }
+            h2{
+              color: white;
+            }
+            a{
+              color: yellow;
+              text-decoration:blink;
+            }
+            a:hover{
+              color: skyblue;
+            }
+            .container{
+              display:flex;
+              flex-direction: row;
+              width: 100%;
+            }
+
+            ::placeholder{
+              color: aliceblue;
+              opacity: 0.8;
+            }
+            -->
+
+        </style>
+
+
+    </head>
+
+    <body>
+<div class="container">
+       <div class="signin" >
+           <form method="POST" action="/">
+               <h2 style="color: white">Login</h2>
+               <div>
+                   {{ form.hidden_tag() }}
+                   {{ wtf.form_field(form.username) }}
+                   {{ wtf.form_field(form.password) }}
+               </div>
+
+               <input type="submit" value="Login"  onclick="check(this.form)"><br><br>
+               <label>
+                   <input type="checkbox" value="remember-me" style="width:20px;"> Remember me
+               </label>
+               <br><br>
+               <div id="container">
+
+
+                 <span><button onclick="forgotPswd()">Forgot Password?</button></span>
+               </div>
+
+           </form>
+       </div>
+</div>
+    <script language="javascript">
+            var pswrd = "1234";
+            function forgotPswd(){
+                pswrd = prompt("Please enter your new password")
+                if (pswrd == null || pswrd == "")
+                    alert("Please enter a new password")
+            }
+            function check(form){
+                if (form.username.value == "Nafis" && form.password.value == pswrd){
+                    window.open("/cong")
+                }
+                else{
+                    alert("The username and password entered don't match!")
+                }
+            }
+
+        </script>
+
+
+    </body>
+
+
+
+
+
+
+</html>

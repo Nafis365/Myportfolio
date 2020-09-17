@@ -1,0 +1,253 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>NAF.CAM_HOBBIES</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+<Style>
+
+
+.hobbies{
+
+font-size:20.5px;
+color:white;
+
+    }
+h5{
+color:green;
+font-size: 20px;
+margin-left:20px;
+ }
+ div{
+    color:white;
+
+    }
+
+  *{
+            margin:0;
+            padding:0;
+            -webkit-box-sizing: border-box;
+        }
+        html,body{
+            font-family:Roman;
+            font-size:14px;
+            font-weight: normal;
+            height: 100%;
+            background-image:url('static/images/colorfulsunset.jpg');
+            background-color: black;
+            background-size: cover;
+
+        }
+
+        .table1{
+        line-height: 10;
+        }
+
+        pre{
+        font-size: 20px;
+        color:white;
+        }
+
+        center{
+        color:white;
+        }
+
+        .rightit{
+            float: right;
+        }
+
+
+        .header{
+            padding: 15px 35px;
+            display: inline-block;
+            width: 100%;
+        }
+        .logo{
+            float: left;
+        }
+        img{
+            max-width: 100%;
+            image: url("/static/logocamera.jpg");
+        }
+        .menu{
+            float:right;
+        }
+        .menu ul li{
+            display:inline-block;
+            float: left;
+            line-height: 28px;
+            margin-top: 10px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color:#fff;
+            font-size: 24px;
+            padding: 5px 20px;
+        }
+        .menu ul li a:hover{
+            color:green;
+            letter-spacing:2px;
+        }
+        .name{
+            width:350px;
+            margin-top:200px;
+            margin-left: 100px;
+            text-align:right;
+        }
+        .name h5{
+            color: green;
+            font-size: 22px;
+            letter-spacing: 5px;
+        }
+        .name h1{
+            color:#fff;
+            font-size: 70px;
+            line-height:100px;
+        }
+
+        .footer{
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #3A3635;
+        color: white;
+        text-align: center;
+        font-size:15px;
+        }
+      .footer p{
+      padding:10px;
+      }
+    a{
+      color:yellow;
+    }
+</Style>
+</head>
+
+
+
+<body>
+
+
+
+<div class="bg">
+       <div class= "wrapper">
+            <div class = "header">
+
+                <div class = "logo">
+                    <a href="{{ url_for('a') }}"><image src = "{{ url_for('static', filename='images/logocamera3.png') }}" alt= "logo" width="150px"></a>
+                </div>
+
+                <div class="navbar">
+
+                          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">Choose an  options: </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('a') }}">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('c') }}">Who am I?<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('d') }}">My Work</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('subscribe') }}">Subscribe</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Logout</a>
+                      </li>
+
+                    </ul>
+
+                  </div>
+                </nav>
+    </div>
+</div>
+
+
+
+             <!--      <div class = "menu animated fadeInDownBig">
+                      <ul>
+                          <li><a style="color:yellow;" href="{{ url_for('c') }}">Who Am I?</a></li>
+                          <li><a style="color:yellow;"  href="{{ url_for('d') }}">My Work</a></li>
+                      </ul>
+                   </div>
+             -->
+            </div>
+
+       </div>
+
+</div>
+
+
+<div class="container">
+    <div class="col-xs-12"></div>
+      <h1 style="margin-left:20px;color:white;">My Other Hobbies</h1><br>
+
+
+                        <h5 style>Editing</h5>
+                        <p class="hobbies">
+                            I use the computer application <a style="color:yellow;" href="https://www.adobe.com/products/photoshop.html?sdid=KKQIN&mv=search&kw=photoshop&ef_id=CjwKCAjw1cX0BRBmEiwAy9tKHs2A5RqFoQBkcKHYVz6vOmocpFRHRON3x1DmMOMPoV5Ueu3OjPdzhRoC7HYQAvD_BwE:G:s&s_kwcid=AL!3085!3!356475421369!e!!g!!adobephotoshop&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHs2A5RqFoQBkcKHYVz6vOmocpFRHRON3x1DmMOMPoV5Ueu3OjPdzhRoC7HYQAvD_BwE" target="_blank"><em>Adobe Photoshop</em></a> when I want to edit photos from certain events or for clients.<br>
+                            During transportation, I tend to pass time by editing random pictures I have in my cameraroll with a phone application called <a style="color:yellow;" href="https://picsart.com/apps" target="_blank"><em>PicsArt</em></a>
+                        </p>
+                        <h5>Drawing</h5>
+                        <p class="hobbies">
+                            From time to time, after a long and hard day, I like to just sit down, put on some headphones, turn on my music. And with a piece of paper and a pencil
+                            at my desk. I just go at it, I draw either whatever comes with the flow of my mood or new ideas of pictures that I can take (the angles, the poses, the size of
+                            photo, etc.) I usually draw them in a <a style="color:yellow;"href="https://en.wikipedia.org/wiki/Manga" target="_blank"><em>manga</em></a> form since it is the only drawing style that I am able to draw.
+                        </p>
+                        <h5>Hairstyling</h5>
+                        <p class="hobbies" style="width:800px">
+                            I work part-time as a barber at my cousin's barbershop. I tend to enjoy grooming hair since it creates a sense of art on the human body. It gives
+                            character to a person's figure or personality. And the sound of the clippers is one of the most satisfying sounds there can possibly exist.
+                        </p>
+                        <h5>Climbing</h5>
+                        <p class="hobbies" style="width:770px;">
+                            I have done some photoshoot sessions in places like inside a forest or in the mountains and that, sometimes, involve climbing trees and rocks. The
+                            higher I go, the prettier the view of everything around me gets. Sometimes, I can get the best view of a sunset within the clouds.
+                        </p>
+                        <h5>Night drives</h5>
+                        <p class="hobbies">
+                            The only way to cool off from anything making you angry or upset, the only way to reach a nice and calm vybe, the only feel the wind flow through you,
+                            the only way to forget about everything about life is a simple drive at night with some chill music. Sometimes, its a nice feeling when you drive during a sunset,
+                            but its more effective when it is during the night.
+                        </p>
+    </div>
+</div>
+
+
+    <!-- footer -->
+<div class="footer"><center><h2>Contact Info</h2></center>
+            <p>Md.Nafis Ali</p>
+            <p>Phone Number: (514) 434-0563</p>
+            <p>Email: <br><a href="mailto:md.nafisali1@gmail.com">md.nafisali1@gmail.com</a></p>
+            Social:<br>
+            <a href="https://www.facebook.com/profile.php?id=100008258346665" target="_blank" class="fa fa-facebook">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com/naf.cam/" target="_blank" class="fa fa-instagram">Instagram</a>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel ="stylesheet" type="text/css" href="static/css/lightbox.min.css">
+    <script src="static/js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/lightbox-plus-jquery.min.js"></script>
+
+    <style>
+         h1{
+            font-size: 50px;
+            color: green;
+         }
+         body{
+            background-color: black;
+         }
+        .gallery{
+           margin: 1px 15px;
+           margin-left: 220px;
+        }
+        .gallery img{
+           transition: 1s;
+           padding: 1px;
+           width :350px;
+        }
+        .gallery img:hover{
+           filer: grayscale(100%);
+           transform: scale(1.1);
+           transition: 0.3s;
+
+        }
+        .hover-shadow:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>NAF.CAM_My Work</title>
+</head>
+<body>
+<div id="barba-wrapper">
+    <div class="barba-container">
+    <div class = "logo">
+                    <a href="{{ url_for('a') }}"><image src = "{{ url_for('static', filename='images/logocamera.jpg') }}" alt= "logo" width="100px"></a>
+    </div>
+    </div>
+</div>
+
+    <div class="gallery">
+        <a href="static\images\amel.jpg" data-lightbox="templates"><img width ="400" height="350"  alt="amel" src="static\images\small_amel.png" ></a>
+        <a href="static\images\eveningsky.jpg" data-lightbox="templates"><img width ="400" height="350"  alt="eveningsky" src="static\images\small_eveningsky.png"></a>
+        <a href="static\images\amelafar.jpg" data-lightbox="templates"><img width ="400" height="350" alt="amelafar" src="static\images\small_amelafar.png"></a>
+        <a href="static\images\anas.jpg" data-lightbox="templates"><img width ="400" height="350" alt="anas" src="static\images\small_anas.png"></a>
+        <a href="static\images\anis.jpg" data-lightbox="templates"><img width ="400" height="350" alt="anis" src="static\images\small_anis.png"></a>
+        <a href="static\images\bar.jpg" data-lightbox="templates"><img width ="400" height="350" alt="bar" src="static\images\small_bar.png"></a>
+        <a href="static\images\amelfullbody.jpg" data-lightbox="templates"><img width ="400" height="350" alt="amelfullbody" src="static\images\small_amelfullbody.png"></a>
+        <a href="static\images\anasfield.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_anasfield.png"></a>
+        <a href="static\images\amelsunglasses.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_amelsunglasses.png"></a>
+        <a href="static\images\amelwalking.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_amelwalking.png"></a>
+        <a href="static\images\anasandsaid.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_anasandsaid.png"></a>
+        <a href="static\images\anasmetro.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_anasmetro.png"></a>
+        <a href="static\images\anaspurple.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_anaspurple.png"></a>
+        <a href="static\images\yann2.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_yann2.png"></a>
+        <a href="static\images\calculator.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_calculator.png"></a>
+        <a href="static\images\anasstraight.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_anasstraight.png"></a>
+        <a href="static\images\chineselamps.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_chineselamps.png"></a>
+        <a href="static\images\christmaspillars.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_christmaspillars.png"></a>
+        <a href="static\images\colorfuldisco.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_colorfuldisco.png"></a>
+        <a href="static\images\yasmine.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_yasmine.png"></a>
+        <a href="static\images\colorfulsunset.jpg" data-lightbox="templates"><img width ="400" height="350" alt="eveningsky" src="static\images\small_colorfulsunset.png"></a>
+        <a href="static\images\darkjuan.jpg" data-lightbox="templates"><img width ="400" height="350" alt="darkjuan" src="static\images\small_darkjuan.png"></a>
+        <a href="static\images\dtownnight.jpg" data-lightbox="templates"><img width ="400" height="350" alt="dtownnight" src="static\images\small_dtownnight.png"></a>
+        <a href="static\images\forest.jpg" data-lightbox="templates"><img width ="400" height="350" alt="forest" src="static\images\small_forest.png"></a>
+        <a href="static\images\jaggy.jpg" data-lightbox="templates"><img width ="400" height="350" alt="jaggy" src="static\images\small_jaggy.png"></a>
+        <a href="static\images\juan.jpg" data-lightbox="templates"><img width ="400" height="350" alt="juan" src="static\images\small_juan.png"></a>
+        <a href="static\images\junior.jpg" data-lightbox="templates"><img width ="400" height="350" alt="junior" src="static\images\small_junior.png"></a>
+        <a href="static\images\juniorside.jpg" data-lightbox="templates"><img width ="400" height="350" alt="juniorside" src="static\images\small_juniorside.png"></a>
+        <a href="static\images\library.jpg" data-lightbox="templates"><img width ="400" height="350" alt="library" src="static\images\small_library.png"></a>
+        <a href="static\images\me.jpg" data-lightbox="templates"><img width ="400" height="350" alt="me" src="static\images\small_me.png"></a>
+        <a href="static\images\me2.jpg" data-lightbox="templates"><img width ="400" height="350" alt="me2" src="static\images\small_me2.png"></a>
+        <a href="static\images\meandsheldon.jpg" data-lightbox="templates"><img width ="400" height="350" alt="meandsheldon" src="static\images\small_meandsheldon.png"></a>
+        <a href="static\images\metro.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_metro.png"></a>
+        <a href="static\images\mihaicrib.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_mihaicrib.png"></a>
+        <a href="static\images\nafisa.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_nafisa.png"></a>
+        <a href="static\images\nightpatio.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_nightpatio.png"></a>
+        <a href="static\images\nightviewdtown.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_nightviewdtown.png"></a>
+        <a href="static\images\pinklamp.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_pinklamp.png"></a>
+        <a href="static\images\sheldon.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sheldon.png"></a>
+        <a href="static\images\sheldon2.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sheldon2.png"></a>
+        <a href="static\images\sheldonback.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sheldonback.png"></a>
+        <a href="static\images\sheldonsitting.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sheldonsitting.png"></a>
+        <a href="static\images\sideviewmirror.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sideviewmirror.png"></a>
+        <a href="static\images\sparks.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sparks.png"></a>
+        <a href="static\images\sthursule.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_sthursule.png"></a>
+        <a href="static\images\thefam.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_thefam.png"></a>
+        <a href="static\images\thewhip.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_thewhip.png"></a>
+        <a href="static\images\wedding1.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_wedding1.png"></a>
+        <a href="static\images\wedding2.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_wedding2.png"></a>
+        <a href="static\images\wedding3.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_wedding3.png"></a>
+        <a href="static\images\yann.jpg" data-lightbox="templates"><img width ="400" height="350" alt="metro" src="static\images\small_yann.png"></a>
+
+
+
+    </div>
+
+
+
+        <script src="static/js/lightbox-plus-jquerry.min.js"></script>
+
+</body>
+</html>
